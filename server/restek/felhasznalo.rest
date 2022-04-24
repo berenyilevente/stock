@@ -1,0 +1,40 @@
+GET http://127.0.0.1:5000/felhasznalo
+
+###
+
+GET http://127.0.0.1:5000/felhasznalo/id/6238217a8b8122b3ad6b6658
+
+###
+
+POST http://127.0.0.1:5000/felhasznalo
+Content-Type: application/json
+
+{
+    "name": "Második felhasználó",
+    "password": "nagkutya"
+
+
+}
+
+###
+
+DELETE http://127.0.0.1:5000/felhasznalo/62345a6b8c63f36838ef3b7a
+
+
+###
+
+PATCH http://127.0.0.1:5000/felhasznalo/6234e77be5fa7e54dd1291e9
+Content-Type: application/json
+
+{
+    "name": "Új felhasználó név"
+}
+
+
+###
+
+GET http://127.0.0.1:5000/felhasznalo/name
+
+
+####
+GET http://127.0.0.1:5000/felhasznalo/name/Első felhasználó

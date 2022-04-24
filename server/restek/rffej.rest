@@ -1,0 +1,31 @@
+GET http://127.0.0.1:3000/rffej
+
+###
+
+GET http://127.0.0.1:5000/rffej/6234fed9014da0f33ba127a5
+###
+
+POST http://127.0.0.1:3000/rffej
+Content-Type: application/json
+
+{
+   "beirany": false,
+   "ugyfelid": "6234fecf014da0f33ba127a2"
+}
+
+###
+
+DELETE http://127.0.0.1:3000/rffej/6234f7930d0de5860b9c5378
+
+
+###
+
+PATCH http://127.0.0.1:3000/rffej/62346fde0ca3be6103eaeec2
+Content-Type: application/json
+
+{
+    "name": "Új Első Cikk"
+
+
+}
+

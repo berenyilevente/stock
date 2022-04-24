@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .small {
+        @apply w-2 h-2;
+    }
+    .medium {
+        @apply w-4 h-4;
+    }
+    .large {
+        @apply w-8 h-8;
+    }
+
+}
+    

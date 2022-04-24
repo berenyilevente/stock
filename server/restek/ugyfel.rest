@@ -1,0 +1,36 @@
+GET http://127.0.0.1:3000/ugyfel
+
+###
+
+GET http://127.0.0.1:3000/ugyfel/6239a077f584c91f02edd43c
+
+###
+
+POST http://127.0.0.1:3000/ugyfel
+Content-Type: application/json
+
+{
+    "name": "Második Ügyfél",
+    "irsz": "1118",
+    "helyiseg": "Budapest",
+    "cim": "Hóvirág utca 1.",
+    "adosz": "12345678-2-43",
+    "tel": "+36-20/219-5391"
+}
+
+###
+
+DELETE http://127.0.0.1:3000/ugyfel/6239a077f584c91f02edd43c
+
+
+###
+
+PATCH http://127.0.0.1:3000/ugyfel/6234fecf014da0f33ba127a2
+Content-Type: application/json
+
+{
+    "name": "Első Ügyfél"
+
+
+}
+

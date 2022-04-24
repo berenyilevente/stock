@@ -1,0 +1,91 @@
+{
+  "authScreen": {
+    "username": "Felhasználó",
+    "password": "Jelszó",
+    "login": "Bejelentkezés",
+    "register": "Regisztráció",
+    "backToLogin": "Vissza a bejelentkezéshez",
+    "name": "Felhasználó neve",
+    "ctaRegister": "Regisztrálok",
+    "confirmPassword": "Jelszó megerősítése",
+    "email": "Email"
+  },
+  "stock": {
+    "title": "Készlet",
+    "add": "Készlet hozzáadása",
+    "recalculate": "Készlet ujraszámolása",
+    "edit": "Készlet darab szerkesztése",
+    "save": "Készlet mentése",
+    "articleNumber": "Cikkszám",
+    "quantity": "Mennyiség",
+    "allStock": "Összes készlet",
+    "stockHeadItems": "Raktárfej tételek",
+    "stockHeadId": "Raktárfej",
+    "price": "Ár",
+    "addStockHeadItem": "Tétel hozzáadása",
+    "allStockHeadItems": "Összes raktárfej tétel",
+    "supply": "Beszerzés",
+    "delivery":"Kiszállítás"
+  },
+  "supply": {
+    "supply": "Beszerzés",
+    "direction": "Irány",
+    "number": "Bizonylatszám",
+    "date": "Dátum",
+    "client": "Ügyfél",
+    "addStockHead": "Beszerzés bevitel",
+    "editStockHead": "Raktárfej szerkesztése",
+    "stockHeads": "Összes raktárfej"
+  },
+  "articles": {
+    "articles": "Cikkek",
+    "add": "Cikk hozzáadása",
+    "upload": "Cikk feltöltése",
+    "articleNumber": "Cikkszám",
+    "price": "Ár",
+    "name": "Cikk neve",
+    "quantity": "Mennyiség",
+    "barcode": "Vonalkód",
+    "all": "Összes cikk",
+    "article": "Cikk",
+    "editArticle": "Cikk szerkesztése",
+    "save": "Cikk mentése"
+  },
+  "clients": {
+    "clients": "Ügyfelek",
+    "title": "Ügyfelek",
+    "add": "Ügyfél hozzáadása",
+    "upload": "Ügyfél feltöltése",
+    "name": "Ügyfél neve",
+    "postalCode": "Irányító szám",
+    "place": "Helyiség",
+    "address": "Cím",
+    "taxNumber": "Adószám",
+    "phoneNumber": "Telefonszám",
+    "all": "Összes ügyfél",
+    "article": "Ügyfél",
+    "saveClient": "Ügyfél mentése",
+    "editClient": "Ügyfél szerkesztése"
+  },
+  "delivery":{
+    "delivery": "Kiszállítás",
+    "number": "Bizonylatszám",
+    "date": "Dátum",
+    "client": "Ügyfél",
+    "addStockHead": "Kiszállítás bevitel",
+    "editStockHead": "Raktárfej szerkesztése",
+    "stockHeads": "Összes raktárfej"
+  },
+  "general": {
+    "noData": "Nincs adat",
+    "deleteQuestion": "Törlés?",
+    "delete": "Törlés",
+    "yes": "Igen",
+    "cancel": "Mégsem",
+    "edit": "Szerkesztés",
+    "add": "Hozzáadás",
+    "notFound": "Nincs találat",
+    "save": "Mentés",
+    "back": "Vissza"
+  }
+}

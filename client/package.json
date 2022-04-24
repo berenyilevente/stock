@@ -1,0 +1,80 @@
+{
+  "name": "landing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@redux-devtools/core": "^3.11.0",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.1",
+    "i18next": "^21.6.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.7",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start && cli",
+    "startv2": "react-scripts --openssl-legacy-provider start && cli",
+    "css": "postcss ./src/styles/tailwind.css -o ./src/styles/tailwind.generated.css",
+    "cli": "npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind.generated.css --watch",
+    "prestart": "npm run css",
+    "prebuild": "npm run css",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "create-component": "node scripts/createComponent.js",
+    "create-layout": "node scripts/createLayout.js",
+    "create-screen": "node scripts/createScreen.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.5"
+  }
+}

@@ -1,0 +1,34 @@
+GET http://127.0.0.1:5000/cikk
+
+###
+
+GET http://127.0.0.1:5000/cikk/1262
+
+###
+
+POST http://localhost:5000/cikk
+Content-Type: application/json
+
+{
+    "Tipus": 1,
+    "cikkszam": "55",
+    "name": "Negyess cikk",
+    "ar": 100,
+    "mee": "db",
+    "vonalkod": "599"
+}
+
+###
+
+DELETE http://127.0.0.1:5000/cikk/1381
+
+###
+
+PATCH http://127.0.0.1:5000/cikk/1262
+Content-Type: application/json
+
+{
+    "name": "Új 33. Ciiiiikkiii"
+
+
+}

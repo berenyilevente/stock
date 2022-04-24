@@ -1,0 +1,37 @@
+GET http://127.0.0.1:5000/rftet
+
+###
+
+GET http://127.0.0.1:3000/rftet/623507ef67117cd69af73eac
+
+###
+
+POST http://127.0.0.1:3000/rftet
+Content-Type: application/json
+
+{
+   "rffejid": "62350f3f5aff2146c701fc52",
+   "cikkszam": "000002",
+   "menny": 20,
+   "ar": 1650
+   
+}
+
+###
+
+DELETE http://127.0.0.1:3000/rftet/623507ef67117cd69af73eac
+
+
+###
+
+PATCH http://127.0.0.1:3000/rftet/62350919cc2d7520dc6362bd
+Content-Type: application/json
+
+{
+    "menny": 20
+
+
+}
+
+
+
